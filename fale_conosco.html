@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+        <title>Fale conosco</title>
+        <link rel="stylesheet" type="text/css" href="Estilos.css" />
+        <meta charset="utf-8" />
+        
+        
+    </head>
+    <body>
+        <header>
+            <div class="barra_superior">
+                <div class="container">
+                    Horário de abertura: 18:00 - 00:00h
+                </div>
+            </div>
+            
+            
+            <div class="container">
+                <img class="logo" alt="Logo da empresa" title="Aqui é apresentado a logo da empresa XYZ" src="imagens/logo%20peixaria.jpg" />
+                
+                <nav class="negrito">
+                    <a href="principal.html">Principal</a> |
+                    <a href="sobre.html">sobre</a> |
+                    <a href="cardapio.html">Cardápio</a> |
+                    <a href="fale_conosco.html">Fale Conosco</a> |
+                    <a class="btn_destaque" href="onde_estamos.html">Onde estamos</a>               
+                </nav>
+            </div>
+            
+        </header>
+        <br class="clearfix" />
+        <section class="sec_fale">
+            <div class="container">
+                <div class="metade">
+                  
+                    <!--
+                        Metodo:
+                        - GET: Dados são passados pela URL.
+                        - POST: Dados são passados pela Requisição.
+                    -->
+                    <form enctype="application/x-www-form-urlencoded" method="POST">
+                        <label for="NomeCompleto">Nome</label>
+                        <input id="NomeCompleto" type="text" name="Nome_Completo" placeholder="Digite seu nome completo" />
+                        <br />
+                        <label for="Email">Email</label>
+                        <input id="Email" type="text" name="Email" placeholder="Digite seu email" />
+                        <br />
+
+                        <label for="Telefone">Telefone</label>
+                        <input id="Telefone" type="text" name="Telefone" placeholder="Digite seu telefone" />
+                        <br />
+
+                        <label for="Mensagem">Mensagem</label>
+                        <textarea id="Mensagem" name="Mensagem"></textarea>
+
+                        <br />
+                        <input type="submit" value="Enviar"/>
+                    </form>
+                </div>
+                
+               
+
+                        
+
+                   
+                
+                 <div class="metade">
+                    <div>
+                
+
+                        <strong>Redes Sociais</strong>
+                        <br />
+                        <a href="#"><img alt="Link para Facebook" src="imagens/facebooklogo.jpg" /></a>
+                        <a href="#"><img alt="Link para Twitter" src="imagens/twiter.png"  /></a>
+                        <a href="#"><img alt="Link para Instagram" src="imagens/insta.jpg"  /></a>
+                        <br />
+                        <br  />
+                        <strong>Telefone:</strong> <strong class="subli">(66) 99292-4915.</strong>   
+                        </div>
+                    
+                        <br />
+                        <br />
+                        <address>
+                        Barra do Garças, Brasil, MT
+                        <br />
+                        78600-000
+                        <br />
+                        Avenida Grande universo esquina com laura vicunha
+                        <br />
+                        número 791, Nova barra Sul.
+                    </address>
+                </div>
+            </div>
+        </section>
+        <br class="clearfix" />
+        <footer>
+            
+                
+                
+            <br class="clearfix" />
+            <div class="direitos_reservados">
+                Todos os direitos reservados (@) 2020. <a href="termodeuso.html">Termos de uso</a> e <a href="politicaprivacidade.html">Política de privacidade</a>.
+                </div>
+            
+        </footer>
+    </body>
+</html>
